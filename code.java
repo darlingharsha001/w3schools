@@ -1,5 +1,5 @@
 import java.util.Scanner;
-###
+
 public class Calculator {
 
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Calculator {
         System.out.println("3. Multiplication (*)");
         System.out.println("4. Division (/)");
         System.out.println("5. Exit");
-
+###
         while (true) {
             System.out.print("Enter the operation number: ");
             int choice = scanner.nextInt();
