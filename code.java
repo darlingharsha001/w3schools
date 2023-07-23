@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Computer {
+public class Calculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class Computer {
         System.out.println("3. Multiplication (*)");
         System.out.println("4. Division (/)");
         System.out.println("5. Exit");
-####four hash 
+
         while (true) {
             System.out.print("Enter the operation number: ");
             int choice = scanner.nextInt();
